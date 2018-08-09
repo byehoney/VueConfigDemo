@@ -1,0 +1,1 @@
+webpackJsonp([10],{"7+/L":function(e,n,t){"use strict";Object.defineProperty(n,"__esModule",{value:!0});var r={render:function(){var e=this.$createElement;return(this._self._c||e)("router-view")},staticRenderFns:[]},s=t("VU/8")({name:"MessageIndex"},r,!1,null,null,null);n.default=s.exports}});

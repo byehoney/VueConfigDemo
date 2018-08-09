@@ -1,0 +1,174 @@
+body {
+  background: #f5f5f5;
+  position: relative;
+}
+body .company {
+  position: fixed;
+  left: 50%;
+  margin-left: -1.8rem;
+  bottom: .36rem;
+  font-size: .24rem;
+  color: #999;
+}
+.main{
+  width: 7.5rem;
+  margin: 0 auto;
+}
+.evaluate_page {
+  max-width: 750px;
+  margin: 0 auto;
+}
+.evaluate_page h3 {
+  height: .56rem;
+  line-height: .56rem;
+  text-align: center;
+  background: #f6e1d9;
+  font-size: .26rem;
+  color: #ff534a;
+}
+.evaluate_page h3 em {
+  font-size: .24rem;
+  color: #b13409;
+  margin-left: .2rem;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.evaluate_page .evaluate_cont {
+  margin: 0 .2rem 0;
+  position: relative;
+}
+.evaluate_page .shade {
+  box-shadow: 0 .03rem .08rem .03rem #d6d6d6;
+}
+.evaluate_page .evaluate_cont .progress_bar {
+  display: block;
+  width: .94rem;
+  height: .86rem;
+  text-align: center;
+  padding-right: .18rem;
+  background: url("../../images/risk/progress_bar.png") no-repeat left top;
+  background-size: 100% 100%;
+  font-size: .24rem;
+  color: #fff;
+  position: absolute;
+  top: .3rem;
+}
+.evaluate_page .evaluate_cont .progress_bar span {
+  font-size: .4rem;
+}
+.evaluate_page .profession_cont {
+  overflow: hidden;
+}
+.evaluate_page .profession_cont .profession_info {
+  background:  #fff;
+  padding: .64rem 0.4rem .6rem;
+  margin-top: .3rem;
+  border-radius: .16rem;
+}
+.evaluate_page .profession_cont h2 {
+  font-size: .3rem;
+  color: #333;
+  padding-top: .22rem;
+}
+.evaluate_page .profession_cont .text_info {
+  padding: .14rem 0;
+  text-align: left;
+  padding-left: .3rem;
+  border-radius: .15rem;
+  border: 1px solid #e6e6e6;
+  margin-top: .2rem;
+  font-size: .28rem;
+  color: #333;
+}
+.evaluate_page .profession_cont .text_info span {
+  width: 7%;
+  float: left;
+}
+.evaluate_page .profession_cont .text_info em {
+  float: left;
+  width: 88%;
+}
+.evaluate_page .profession_info p {
+  line-height: .42rem;
+  font-size: .3rem;
+  color: #333;
+}
+.evaluate_page .profession_info p:nth-of-type(1) {
+  margin-top: .48rem;
+}
+.evaluate_page .profession_info .tips {
+  line-height: .34rem;
+  margin-top: .3rem;
+  font-size: .24rem;
+  color: #999;
+}
+.evaluate_page .profession_info .choice {
+  text-align: center;
+  margin-top: .6rem;
+}
+.evaluate_page .profession_info .next_topic,
+.evaluate_page .profession_info .prve_topic {
+  width: 2.1rem;
+  display: inline-block;
+  height: .54rem;
+  line-height: .54rem;
+  text-align: center;
+  font-size: .26rem;
+  border-radius: .08rem;
+  cursor: pointer;
+  margin: 0 .2rem;
+  border: 1px solid #ff534a;
+  background: #ff534a;
+  color: #fff;
+}
+.evaluate_page .profession_info .appraisal {
+  color: #ff534a;
+  background: #fff;
+}
+.evaluate_page .profession_info .pitch {
+  border: 1px solid #ff534a;
+  background: #ff534a;
+  color: #fff;
+}
+.evaluate_page .profession_info .txt {
+  width: 100%;
+  height: .6rem;
+  border: 1px solid #e6e6e6;
+  text-indent: .24rem;
+  font-size: .24rem;
+  color: #999;
+  margin-top: .2rem;
+}
+.evaluate_page .profession_info select {
+  display: block;
+  width: 100%;
+  height: .68rem;
+  margin-top: .24rem;
+  background: url("../../images/risk/drop.png") no-repeat;
+  background-size: 100% 100%;
+  border: none;
+  outline: none;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  text-indent: .3rem;
+  font-size: .28rem;
+  color: #333;
+}
+.evaluate_page .profession_info h4 {
+  font-size: .42rem;
+  color: #ff534a;
+   font-weight: 600;
+}
+.evaluate_page .profession_info h4 span {
+  font-size: .26rem;
+  color: #666;
+  font-weight: 300;
+}
+.error{
+  font-size:.26rem;
+  color:#ff0d40;
+  padding-top:.1rem;
+  padding-left: .2rem;
+}
+

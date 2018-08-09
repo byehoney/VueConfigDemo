@@ -1,0 +1,106 @@
+.account{
+    width: 100%;
+    margin: 0 auto;
+}
+.account i{
+    float: right;
+    width: .22rem;
+    height: .22rem;
+    border-top: .04rem solid #8a8b8b;
+    border-right: .04rem solid #8a8b8b;
+    -webkit-transform-origin: center center;
+    -webkit-transform: rotate(45deg);
+    -webkit-transition: all .2s linear;
+    transform-origin: center center;
+    transform: rotate(45deg);
+    transition: all .2s linear;
+    margin: .25rem .19rem 0 0;
+}
+.account i.arrDown{
+    -webkit-transform: rotate(135deg);
+    transform: rotate(135deg);
+}
+/*帮助中心*/
+.account .help_center_cont{
+    width: 100%;
+    padding: 0;
+    padding-top: .15rem;
+}
+.help_center_t{
+    border-top: 1px solid #e6e6e6;
+}
+.help_center_b{
+    border-bottom: 1px solid #e6e6e6;
+}
+.help_center_cont li p,.security_content p{
+    font-size: .28rem;
+    color: #666;
+}
+.security_content p.otherPra{
+    width: 90%;
+    color: #333;
+}
+.security i.arrow_icon{
+    width: .3rem;
+    height: .2rem;
+    background-position: -.74rem -5.67rem;
+
+}
+.security i.switch_icon{
+    background-position: -.75rem -6.38rem;
+}
+.security_content .security{
+    color: #333;
+    background-color: #fff;
+    position:relative;
+}
+.security_content .security i.arrow_icon{
+    position:absolute;
+    right:.2rem;
+    top:.2rem;
+}
+.security_content .security i.otherPosition{
+    top: .05rem;
+}
+.safety_title{
+    padding: .12rem .24rem;
+}
+.safety_title p{
+    font-size:.26rem;
+    color:#999;
+}
+.safety_title p  span{
+    color:#666;
+}
+.buy_title li{
+    font-size:.28rem;
+    color:#333;
+    position:relative;
+}
+.account i.hot_issue_icon{
+    background-position: -.71rem -7.49rem;
+}
+
+.hot_issue{
+    padding-left: .3rem;
+    height: .72rem;
+    line-height: .72rem;
+}
+.security i.arrow_icon{
+    width: .34rem;
+    height: .24rem;
+    background-position: -.72rem -5.64rem;
+
+}
+.security i.switch_icon{
+    background-position: -.75rem -6.38rem;
+}
+.safety_title p{
+    line-height: 30px;
+    font-size:.26rem;
+    color:#999;
+    text-indent:2em;
+}
+
+
+
